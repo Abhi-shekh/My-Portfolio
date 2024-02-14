@@ -20,7 +20,7 @@ function App() {
         <Projects />
         <Resume />
         
-        <Contact />
+        {/* <Contact /> */}
         {/* <Footer /> */}
         <FooterBottom />
       </div>
