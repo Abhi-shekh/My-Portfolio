@@ -128,13 +128,13 @@ const Testimonial = () => {
                   
                   </div> */}
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  I'm a pre-final student persuading Btech in ECE from NIT Hamirpur who loves solving problems and building Websites.<br/><br/>
+                  I'm a pre-final student pursuiting Btech in ECE from NIT Hamirpur who enjoys solving problems and building Websites.<br/><br/>
 
-                  I am passionate about technologies and love to learn new things.<br/><br/>
+                  I have a strong interest in technology and enjoy learning new things.<br/><br/>
 
-                  I am more interested in building new Web Technologies and Products.<br/><br/>
+                  Developing new web technologies and products is what interests me more.<br/><br/>
 
-                  I always apply my experience in developing products with Node.Js and Modern Javascript Library and Framework like React.Js and Next.Js<br/><br/>
+                  I always apply my experience in developing products with Node.Js and Modern Javascript Library and Framework like React.Js.<br/><br/>
 
                   Currently expanding my portfolio by building more projects that I can add here.
                   </p>
