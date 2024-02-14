@@ -12,9 +12,9 @@ const LeftBanner = () => {
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-14">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        {/* <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4> */}
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Abhishek Raj</span>
         </h1>
@@ -22,7 +22,7 @@ const LeftBanner = () => {
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
-            cursorStyle="."
+            cursorStyle="|"
             cursorColor="#ff014f"
           />
         </h2>

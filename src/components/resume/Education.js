@@ -23,7 +23,7 @@ const Education = () => {
           />
           <ResumeCard
             title="Senior Secondary (XII)"
-            subTitle="SuperKing College (2018 - 2020)"
+            subTitle="Delhi Model Public School(2018 - 2020)"
             result="89.6 %"
            
           />

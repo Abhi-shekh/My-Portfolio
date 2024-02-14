@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { TikTakToe, WeatherApp, DevDetective, RazorPay } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -20,37 +20,41 @@ const Projects = () => {
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          // src={projectOne}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          // src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Dev Detective App"
+          des=" A webpage that fetches a description of any github account on searching. Built using HTML 5, Tailwind, API fetch and JavaScript"
+          src={DevDetective}
+          gitLink="https://github.com/Abhi-shekh/GitHub-Finder"
+          demoLink="https://git-hub-finder-ivory.vercel.app/"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Weather APP"
+          des=" A single-page website that not only determines the weather of any location but also incorporates auto-location detection, built using HTML 5, CSS and JavaScript."
+          src={WeatherApp}
+          gitLink="https://github.com/Abhi-shekh/weatherforecast/tree/main/WeatherApp"
+          // demoLink=
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="RazorPay Clone"
+          des=" A beautiful single-page frontend website built with HTML 5 and Tailwind CSS."
+          src={RazorPay}
+          gitLink="https://github.com/Abhi-shekh/RazorPay-Clone"
+          // demoLink=
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          title="Tik Tak Toe"
+          des=" A game in which two users can play the Tik Tak Toe together, built using HTML 5, CSS, JavaScript. "
+          src={TikTakToe}
+          gitLink="https://github.com/Abhi-shekh/Tic-Tac-Toe-Game"
+          // demoLink=
         />
       </div>
     </section>

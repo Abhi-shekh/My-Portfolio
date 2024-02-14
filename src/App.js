@@ -15,10 +15,11 @@ function App() {
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <Testimonial />
         <Features />
         <Projects />
         <Resume />
-        <Testimonial />
+        
         <Contact />
         {/* <Footer /> */}
         <FooterBottom />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaMobile, FaGlobe, FaInternetExplorer, FaWordpressSimple, FaReact, FaLaptop, } from "react-icons/fa";
+import { SiProgress, SiCplusplus, SiAntdesign, SiWeb3Dotjs, SiGoogle } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -16,36 +16,18 @@ const Features = () => {
         <Card
           title="Programming"
           des="I use C++ as a programmming language to solve problems on Data Structures and algorithms. I have solved 100+ questions on leetcode platfrom"
-         
+          icon={<SiCplusplus />}
         />
         <Card
           title="Web Development"
           des="I am a full Stack developer with MERN Stack. I generally use ReactJS and ExpressJS to build projects."
-          icon={<AiFillAppstore />}
+          icon={<FaReact />}
         />
         <Card
           title="Video Editing"
           des="I use Adobe premiere pro to edit videos."
-          icon={<SiProgress />}
+          icon={<FaLaptop />}
         />
-        {/* <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
-        />
-        <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
-        />
-        <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaGlobe />}
-        /> */}
       </div>
     </section>
   );
